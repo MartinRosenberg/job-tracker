@@ -16,6 +16,7 @@
 		"build": "tsc",
 		"build:watch": "yarn build --watch",
 		"clean": "rimfraf dist",
+		"prestart": "yarn build",
 		"start": "node dist/index.js"
 	},
 	"devDependencies": {
